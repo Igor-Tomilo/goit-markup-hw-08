@@ -1,0 +1,19 @@
+.studio-line::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 4px;
+  width: 100%;
+  margin-top: 33px;
+  background-color: $accent-color;
+}
+
+.portfolio-line::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 4px;
+  width: 100%;
+  margin-top: 33px;
+  background-color: $accent-color;
+}

@@ -1,0 +1,48 @@
+.works {
+  &-section {
+    padding-bottom: 95px;
+    text-align: center;
+
+    &-list {
+      display: flex;
+      justify-content: space-between;
+
+      &-wrapper {
+        position: relative;
+      }
+    }
+  }
+}
+
+.develops {
+  &-overley {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: #fff;
+  }
+
+  &-card-title {
+    font-family: $main-font;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
+
+.works-list {
+  display: flex;
+  justify-content: space-between;
+
+  &-wrapper {
+    position: relative;
+  }
+}
