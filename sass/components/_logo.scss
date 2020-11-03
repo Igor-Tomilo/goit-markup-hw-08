@@ -2,20 +2,29 @@
   font-family: $secondary-font;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
+  @media screen and (max-width: 1023px) {
+    font-size: 24px;
+    line-height: 1.166;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 26px;
+    line-height: 1.192;
+  }
   letter-spacing: 0.03em;
   color: #2094f3;
-
-  &-img {
-    margin-right: 90px;
-  }
 
   &-color-light-theme {
     font-family: $secondary-font;
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
+    @media screen and (max-width: 1023px) {
+      font-size: 24px;
+      line-height: 1.166;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 26px;
+      line-height: 1.192;
+    }
     color: $logo-color-light-theme;
   }
 
@@ -23,8 +32,14 @@
     font-family: $secondary-font;
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
+    @media screen and (max-width: 1023px) {
+      font-size: 24px;
+      line-height: 1.166;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 26px;
+      line-height: 1.192;
+    }
     letter-spacing: 0.03em;
     color: $logo-color-dark-theme;
   }
