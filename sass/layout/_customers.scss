@@ -5,15 +5,16 @@
 
   &-list {
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    // justify-content: space-between;
   }
 
   &-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
+    width: 210px;
     height: 90px;
     border: 1px solid #afb1b8;
     border-radius: 5px;
@@ -34,4 +35,6 @@
   }
 }
 
-
+// .customers-list-item:not(:last-child) {
+//   margin-right: 30px;
+// }

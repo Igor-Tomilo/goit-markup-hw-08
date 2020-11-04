@@ -1,13 +1,20 @@
-.studio-line::after {
-  content: '';
-  position: absolute;
-  display: block;
-  height: 4px;
-  left: 0;
-  bottom: -5px;
-  width: 100%;
-  border-radius: 2px;
-  background-color: $accent-color;
+.current-line {
+  display: inline-block;
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 4px;
+    left: 0;
+    bottom: -5px;
+    @media screen and (min-width: 768px) {
+      bottom: -35px;
+    }
+    width: 100%;
+    border-radius: 2px;
+    background-color: $accent-color;
+  }
 }
 
 // .studio-line::after {

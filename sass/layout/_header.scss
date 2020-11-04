@@ -1,6 +1,15 @@
 .header {
   position: relative;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    @media screen and (min-width: 1024px) {
+      padding-top: 31px;
+      padding-bottom: 31px;
+    }
+  }
   border-bottom: 1px solid #ececec;
 
   &-container {
@@ -82,8 +91,6 @@
     }
     &-item {
       position: relative;
-      // display: inline-flex;
-      // justify-content: center;
     }
 
     &-item:not(:last-child) {
@@ -98,7 +105,6 @@
     @media screen and (min-width: 768px) {
       display: flex;
       align-items: center;
-      // margin-right: 84px;
     }
 
     &-link {
