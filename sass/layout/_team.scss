@@ -78,7 +78,11 @@
 
 .social-link {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+
+  &-item {
+    margin-right: 10px;
+  }
 }
 
 .social-link-link {
