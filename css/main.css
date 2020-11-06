@@ -1001,7 +1001,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 1023px) {
   .customers-link {
     display: flex;
   }
@@ -1214,5 +1214,56 @@ img {
 
 .button-send-svg {
   margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-address {
+    max-width: 232px;
+    width: 100%;
+    margin-right: 165px;
+  }
+  .join {
+    max-width: 206px;
+    width: 100%;
+  }
+  .subscribe {
+    max-width: 450px;
+    width: 100%;
+  }
+  .footer-tablet-center {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .footer-address {
+    margin-right: 70px;
+  }
+  .footer-tablet-center {
+    align-items: baseline;
+    max-width: 510px;
+    width: 100%;
+    margin-right: 90px;
+  }
+  .subscribe {
+    max-width: 570px;
+    width: 100%;
+  }
+  .subscribe-mail {
+    max-width: 358px;
+    width: 100%;
+  }
+  .footer-section {
+    flex-wrap: nowrap;
+    align-items: baseline;
+  }
+  .subscribe-form {
+    display: flex;
+  }
 }
 /*# sourceMappingURL=main.css.map */
