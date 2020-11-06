@@ -1,3 +1,27 @@
+.portfolio {
+  &-section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio {
+    &-section {
+      padding-bottom: 30px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .portfolio {
+    &-section {
+      padding-top: 94px;
+      padding-bottom: 50px;
+    }
+  }
+}
 // .portfolio {
 //   &-section {
 //     padding-top: 94px;
