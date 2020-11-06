@@ -1083,20 +1083,13 @@ img {
 
 .footer {
   background: #2f303a;
-}
-
-.footer-section {
-  display: flex;
-  align-items: baseline;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.footer-section .address {
-  width: 230px;
+  text-align: center;
 }
 
 .address {
+  margin-top: 20px;
   display: block;
   font-weight: 400;
   font-style: normal;
@@ -1107,12 +1100,11 @@ img {
 }
 
 .address-list {
-  margin-top: 20px;
-  margin-right: 70px;
+  margin-bottom: 60px;
 }
 
 .address-list-item:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .address-list-link {
@@ -1130,7 +1122,7 @@ img {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   color: #fff;
 }
@@ -1138,7 +1130,6 @@ img {
 .join-list {
   margin-top: 20px;
   display: flex;
-  justify-content: space-between;
 }
 
 .join-list-links {
@@ -1149,7 +1140,6 @@ img {
   width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  margin-right: 10px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1159,62 +1149,5 @@ img {
 
 .social-join-svg {
   fill: #fff;
-}
-
-.subscribe {
-  width: 100%;
-  margin-left: 80px;
-}
-
-.subscribe-title {
-  display: block;
-  margin-bottom: 20px;
-}
-
-.subscribe-mail {
-  padding: 15px;
-  display: inline-block;
-  margin-right: 12px;
-  width: 358px;
-  height: 50px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.subscribe-mail:focus {
-  outline: none;
-  border: 1px solid #2094f3;
-  border-radius: 2px;
-}
-
-.subscribe-btn {
-  position: relative;
-  display: inline-block;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  color: #ffffff;
-  padding: 10px 62px 10px 32px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  min-width: 200px;
-  height: 50px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.subscribe-svg {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  transform: translateY(50%);
-  margin-right: 28px;
-  display: block;
 }
 /*# sourceMappingURL=main.css.map */
