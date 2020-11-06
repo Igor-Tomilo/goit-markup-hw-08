@@ -7,7 +7,6 @@
 }
 
 .address {
-  margin-top: 20px;
   display: block;
   font-weight: 400;
   font-style: normal;
@@ -17,6 +16,7 @@
   color: #ffffff;
 
   &-list {
+    margin-top: 20px;
     margin-bottom: 60px;
 
     &-item:not(:last-child) {
