@@ -536,7 +536,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .portfolio-secondary-navigation {
     display: flex;
     flex-wrap: wrap;
@@ -555,7 +555,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .portfolio-section {
     padding-top: 94px;
     padding-bottom: 50px;
@@ -721,7 +721,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .footer-address {
     margin-right: 70px;
   }

@@ -1064,7 +1064,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1024px) and (min-width: 1170px) {
+@media screen and (min-width: 1024px) and (min-width: 1200px) {
   .customers-link {
     width: 170px;
   }
@@ -1239,7 +1239,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .footer-address {
     margin-right: 70px;
   }
