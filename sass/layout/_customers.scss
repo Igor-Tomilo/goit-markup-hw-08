@@ -47,6 +47,7 @@
   .customers-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .customers-list-item:nth-child(2n + 1) {
