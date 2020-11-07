@@ -94,6 +94,30 @@
   padding-bottom: 60px;
 }
 
+@media screen and (min-width:768px){
+
+  .portfolio-secondary-navigation{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-nav-item:nth-last-child(2n+1) {
+    margin-right: 20px;
+  }
+  .portfolio-nav-item:last-child {
+    margin-right: -20px;
+  }
+  
+
+  .portfolio-nav-img {
+    max-width: 354px;
+  }
+  .portfolio-card-subtitle{
+    max-width: 354px;
+  }
+}
+
+
 // .portfolio {
 //   &-section {
 //     padding-top: 94px;
