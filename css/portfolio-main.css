@@ -504,10 +504,11 @@ img {
   padding-bottom: 60px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1130px) {
   .portfolio-secondary-navigation {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .portfolio-nav-item:nth-last-child(2n+1) {
     margin-right: 20px;
@@ -520,6 +521,17 @@ img {
   }
   .portfolio-card-subtitle {
     max-width: 354px;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .portfolio-secondary-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .portfolio-nav-item:nth-last-child(n+3) {
+    margin-bottom: 30px;
   }
 }
 
