@@ -46,7 +46,7 @@ img {
 
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 1170px;
+    max-width: 1200px;
   }
 }
 
@@ -420,8 +420,14 @@ img {
   padding-bottom: 40px;
 }
 
-.portfolio-nav-item:not(:last-child) {
-  margin-bottom: 30px;
+.ul {
+  display: inline-block;
+}
+
+@media screen and (max-width: 1169px) {
+  .portfolio-nav-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .portfolio-overley-text {
@@ -504,12 +510,19 @@ img {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+  .portfolio-secondary-navigation {
+    padding-left: 145px;
+    padding-right: 145px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1130px) {
   .portfolio-secondary-navigation {
     display: flex;
     flex-wrap: wrap;
   }
-  .portfolio-nav-item:nth-last-child(2n+1) {
+  .portfolio-nav-item:nth-last-child(2n + 1) {
     margin-right: 20px;
   }
   .portfolio-nav-item:last-child {
@@ -527,9 +540,9 @@ img {
   .portfolio-secondary-navigation {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
-  .portfolio-nav-item:nth-last-child(-n+3) {
+  .portfolio-nav-item:not(:nth-child(3n + 3)) {
+    margin-right: 30px;
     margin-bottom: 30px;
   }
 }
