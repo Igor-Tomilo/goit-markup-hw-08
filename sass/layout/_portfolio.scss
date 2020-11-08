@@ -108,11 +108,10 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1130px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .portfolio-secondary-navigation {
     display: flex;
     flex-wrap: wrap;
-    // justify-content: center;
   }
 
   .portfolio-nav-item:nth-last-child(2n + 1) {
