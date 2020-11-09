@@ -40,11 +40,11 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
@@ -356,7 +356,7 @@ img {
     padding-bottom: 29px;
   }
   .menu-container {
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .address-list-header {
     display: flex;
