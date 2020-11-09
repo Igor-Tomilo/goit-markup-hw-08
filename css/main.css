@@ -1209,6 +1209,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .footer-address {
+    text-align: initial;
     margin-right: 70px;
   }
   .footer-tablet-center {
