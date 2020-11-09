@@ -198,10 +198,7 @@
     justify-content: space-between;
   }
 
-  .address {
-    &-list-header {
-      display: flex;
-    }
+  
 
     &-link {
       font-size: 14px;
@@ -216,4 +213,17 @@
   .logo-img {
     margin-right: 93px;
   }
+
+@media screen and (min-width:1200px){
+  .address {
+    
+    &-list-link-header{
+      margin-right: 30px;
+      }
+
+    &-list-header {
+      display: flex;
+    }
+}
+  
 }
